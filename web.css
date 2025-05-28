@@ -1,0 +1,532 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 23px;
+  height: 56px;
+  border-radius: 15px;
+}
+
+.our {
+  font-size: 1.3rem;
+  width: 230px;
+}
+
+.grace {
+  background-image: url(resource/1000665974.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.699);
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  z-index: 0;
+}
+
+header {
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  z-index: 1;
+}
+
+header > div {
+  display: flex;
+  gap: 6px;
+}
+
+.live {
+  height: 25px;
+  width: 80px;
+  
+}
+
+.dot {
+  width: 30px;
+  height: 6px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.bar {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rev {
+  z-index: 1;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  font-size: xx-large;
+  margin: 70px;
+}
+
+.uche {
+  margin-top: 3rem;
+  max-width: min(50% 100px);
+}
+
+.lady {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.wail {
+  line-height: 25px;
+  text-align: center;
+  color: black;
+}
+
+.oka {
+  height: 350px;
+  width: 450px;
+  display: block;
+  margin-inline: auto;
+  border-radius: 15px;
+}
+
+.behold {
+  margin-top: 40px;
+  background-color: rgba(183, 129, 233, 0.521);
+}
+
+.join {
+  background-image: url(resource/sumup-mn-akTsxIeI-unsplash.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ben {
+  color: white;
+  padding: 20px;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: auto;
+  width: 230px;
+}
+
+.join button {
+  height: 40px;
+  width: 80px;
+  padding: auto;
+  display: block;
+  margin: auto;
+  background-color: rgba(19, 19, 226, 0.938);
+  color: white;
+  border-radius: 6px;
+}
+
+.virgin{
+  background-color: rgba(183, 113, 248, 0.658);
+  text-align: center;
+}
+
+.galle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(231, 45, 45, 0.856);
+  text-align: center;
+}
+
+.kay{
+  color: black;
+  margin-top: 20px;
+  width: 359.1px;
+  text-align: center;
+  margin-left: 120px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.red{
+  color: brown;
+}
+
+.trans{
+  display: flex;
+  margin-top: 15px;
+}
+
+.trans h1,p{
+color: white;
+}
+
+trans h1{
+  color: #fff;
+  background-color: rgba(63, 60, 60, 0.781);
+  padding-left: 5px;
+  /* margin-top: 200px; */
+  border-left: 3px solid #fff;
+  width: fit-content;
+  padding-top: 30px;
+}
+
+.trans p{
+  padding-left: 10px;
+ padding-top: 120px;
+}
+
+.ekulu{
+  margin: 10px 5px;
+  background-image: url(https://bustedhalo.com/wp-content/uploads/2022/09/bigstock-Many-Young-People-At-First-Com-241721923.jpg);
+  width: vw;
+  height: 300px;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.enugu{
+  margin: 10px 5px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVEvTjjTfGbliDqOaVBi6_fRyx8UWonhD02Q&s);
+  width: vw;
+  height: 300px;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.rece{
+  margin: 10px 5px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY4MDFUDVH5_CojYHVLZu7Idyb0JmqA3oq0g&s);
+  width: vw;
+  height: 300px;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.holy{
+  margin: 10px 5px;
+  background-image: url(https://www.shutterstock.com/image-photo/neuoettinggermanyapril-162017-altar-girl-smiles-600nw-622158332.jpg);
+  width: vw;
+  height: 300px;
+  border-radius: 20px;
+background-size: cover;
+}
+
+.wat{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 80px;
+}
+
+.abc{
+  margin-bottom: 35px;
+  border-bottom: 1px solid;
+  border-radius: 8px;
+  /* text-align: center; */
+}
+
+.ogbe{
+  display: block;
+  position: relative;
+}
+
+.favo{
+  padding:10px;
+  margin: 10px;
+}
+
+.chilo{
+  width: 220px;
+  justify-items: center;
+  margin: 20px;
+}
+
+.recap{
+  color: rgba(226, 43, 202, 0.877);
+}
+
+.involve{
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+  
+}
+
+.church{
+  padding-bottom: 15px;
+}
+
+.inv{
+color: blueviolet;
+padding-bottom: 20px;
+}
+
+.picture1{
+  /* border:1px solid ; */
+  border-radius: 10px;
+  /* margin-bottom: 20px; */
+ 
+}
+
+.onya{
+border-radius: 15px;
+}
+
+.oder{
+  padding: 6px;
+}
+
+.odere{
+  padding-bottom: 20px;
+}
+
+.odogwu{
+  display: block;
+  
+}
+
+.omega{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+padding-left:15px ;
+justify-content: space-between;
+}
+
+.okezie{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+padding-left:15px ;
+justify-content:space-between;
+}
+
+.lov{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+padding-left:15px ;
+justify-content: space-between;
+}
+
+
+.fan img{
+  border-radius: 15px;
+}
+
+.fan h2{
+  padding: 6px;
+}
+
+.fan h5{
+  padding-bottom: 20px;
+}
+
+
+.phone img{
+  border-radius: 15px;
+}
+
+.phone h2{
+  padding: 6px;
+}
+
+.phone h5{
+  padding-bottom: 20px;
+}
+
+.ear img{
+  border-radius: 15px;
+}
+
+.ear h2{
+  padding: 6px;
+}
+
+.ear h5{
+  padding-bottom: 20px;
+}
+
+ 
+.book img{
+  border-radius: 15px;
+}
+
+.book h2{
+  padding: 6px;
+}
+
+.book h5{
+  padding-bottom: 20px;
+}
+
+ 
+.sit img{
+  border-radius: 15px;
+}
+
+.sit h2{
+  padding: 6px;
+}
+
+.sit h5{
+  padding-bottom: 20px;
+}
+
+ 
+.bulb img{
+  border-radius: 15px;
+}
+
+.bulb h2{
+  padding: 6px;
+}
+
+.bulb h5{
+  padding-bottom: 20px;
+}
+ 
+.case img{
+  border-radius: 15px;
+}
+
+.case h2{
+  padding: 6px;
+}
+
+.case h5{
+  padding-bottom: 20px;
+}
+ 
+.connect{
+  display: block;
+  margin: auto;
+  /* text-align: center; */
+  background-image: url(resource/clay-banks-urH155LONWs-unsplash.jpg);
+   width:auto; height: 340px; background-size: contain;
+   padding-top: 30px;
+   background-size: cover;
+}
+
+.using{
+  color: green;
+  padding-bottom:10px ;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.able{
+  width: 240px;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.connect button{
+  height: 40px;
+  width: 100px;
+  padding: auto;
+  display: block;
+  margin: auto;
+  background-color: rgba(226, 19, 29, 0.938);
+  color: white;
+  border-radius: 6px;
+}
+
+.form{
+  background-color: rgba(16, 240, 64, 0.932);
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.form input{
+  height: 50px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.mess{
+  border-radius: 10px;
+}
+
+.ugly{
+  height: 40px;
+  width: 100px;
+  padding: auto;
+  display: block;
+  /* margin: auto; */
+  background-color: rgba(226, 19, 29, 0.938);
+  color: white;
+  border-radius: 6px;
+}
+
+.form h2{
+  margin: 20px;
+  color: #fff;
+}
+
+.form h4{
+  padding-bottom: 15px;
+  color: #fff;
+  width: 225px;
+}
+
+.location{
+  margin-top: 30px;
+}
+
+.location h1{
+  color: #fff;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.oya{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration: underline white;
+  background-color: black;
+  color: #fff;
+}
+
+.link{
+   display: flex;
+   background-color: black;
+   color: #fff;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.link h1{
+  color: green;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  
+}
+
+.footer{
+  width: 400px;
+  justify-items: center;
+}
