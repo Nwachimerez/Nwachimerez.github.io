@@ -243,3 +243,10 @@ padding-left: 10px;
     font-size: x-large;
     padding-left: 10px;
 }
+@media (max-width: 760px;) {
+    body{font-size: 14px;
+    flex-direction: column;}
+}
+@media(max-width: 480px;){
+    body{font-size:12px;}
+}
