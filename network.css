@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* list div */
+.first{
+    background-color: rgb(164, 206, 13);
+    text-align: center;
+    list-style-type: none;
+}
+
+.second:hover{
+    background-color: rgba(235, 15, 15, 0.541);
+}
+/* list */
+.second{
+    display: inline-block;
+    padding: 20px;
+    font-size: larger;
+}
+/* background image for the header */
+#third{
+    height: 100vh;
+    background-image: url(network/michelle-spollen-dC2FsjoXsPQ-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+/* paragraph div */
+#third{
+    padding-top: 80px;
+}
+/* the paragraphs */
+.fourth{
+    font-size: x-large;
+    padding-left: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.fifth{
+    padding-top: 50px;
+    font-family: arial;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 900;
+    color:black;
+}
+/* marque */
+.six{
+    margin: 90px;
+    color:yellow;
+    font-weight: 900;
+}
+/* span */
+span{
+    background-color: black;
+    color: brown;
+}
+
+.seven{
+    text-align: center;
+}
+
+.overlay{
+    /* z-index: -1; */
+}
+/* animation */
+.zero{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    animation-name: moving;
+    animation-duration: 10s;
+}
+
+@keyframes moving {
+   0%{ 
+    transform: translate(0px, 0px);
+   } 
+   50%{ background-color: green;
+    transform: translate(400px, 0px,) ;
+   }
+   100%{ background-color: yellow;
+    transform: translate(400px, 400px );
+   }
+}
+/* about myself */
+#eight{
+    width: 100%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.671);
+}
+
+.nine{
+    padding: 10px;
+}
+
+.ten{
+    padding-top: 15px;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: medium;
+}
+
+.odi{
+    margin: 10px;
+}
+
+.myi{
+    margin: 10px 0px 10px 10px;
+}
+
+.lamp{
+    list-style-type: none;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.edu{
+    padding: 10px;
+}
+
+.skil{
+    padding: 10px;
+}
+
+.eleven{
+    margin: 10px;
+    background-color: brown;
+}
+
+.twelve{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.thirteen{
+    width: 300px;
+    border: 1px solid;
+    flex-basis: calc(33.33%);
+    padding: 20px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+.kay{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+
+.baa{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+.fourteen{
+    margin: 10px;
+    text-align: center;
+    background-color: green;
+}
+
+.fifteen{
+    padding: 10px;
+}
+
+.kell{
+    width: 280px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.oga{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.oge{
+    padding-left: 8px;
+    font-size: larger;
+    padding-top: 10px;
+}
+
+.sixteen{
+    display: flex;
+    background-color: gray;
+    gap: 140px;
+    padding-left: 140px;
+}
+
+.seventeen{
+margin-top: 35px;
+background-color: green;
+width: 170px;
+margin-bottom: 15px;
+padding-left: 10px;
+}
+
+#benjamin{
+    background-color: rgba(0, 189, 148, 0.678);
+}
+
+.eighteen{
+   padding: 10px; 
+}
+
+.nineteen{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.twenty{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.pen{
+    background-color: black;
+    color: white;
+}
+
+.ammy{
+    padding: 15px;
+}
+
+.rou{
+    font-size: x-large;
+    padding-left: 10px;
+}
