@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    /* overflow: hidden; */
+    /* width: 800px; */
+    margin-top: 40px;
+}
+
+
+img{
+    object-fit: cover;
+    margin: 10px;
+}
+
+body{
+    background-image: url(network/six.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#hello{
+    font-size: small;
+    background-color: rgba(0, 128, 0, 0.925);
+    color: white;
+    padding: 10px
+}
+
+a{
+    padding-bottom: 30px;
+}
