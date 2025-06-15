@@ -36,9 +36,6 @@ h1{
 }
 
 .phone{
-    position: absolute;
-    bottom: 0;
-    left:50%,
-        transform: translateX(-50);
-    max-width: 100%;
+    margin-top:20px;
+    padding-left: 15px;
    }
