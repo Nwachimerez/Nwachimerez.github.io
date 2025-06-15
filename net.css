@@ -35,11 +35,7 @@ h1{
     text-align: center;
 }
 .phone{
-    position:absolute;
+    position:relative;
     margin-top: 150px;
 }
 
-.phone{
-    margin-top:20px;
-    padding-left: 15px;
-   }
