@@ -104,6 +104,7 @@ span{
 .you{
     position: absolute;
     bottom:0;
+    margin-bottom:20px;
     }
 
 .man{
@@ -114,7 +115,7 @@ span{
     }
 .nom{
     float: right;
-    width: 350px;
+    width: 400px;
     background-color: rgba(216, 123, 10, 0.37);
     border-radius: 20px;
     }
@@ -133,11 +134,12 @@ span{
 
 .odi{
     font-size: large;
-    width: 360px;
+    width: 400px;
     position: relative;
     background-color: rgba(255, 235, 205, 0.753);
     border-radius: 10px;
     margin-left: 15px;
+    line-height: 25px;
   }
 
 .myi{
@@ -149,7 +151,7 @@ span{
    list-style-type: none;
 color:rgba(0, 0, 0, 0.589);
 background-color: rgba(222, 184, 135, 0.63);
-width: 270px;
+width: 320px;
 border-radius: 20px;
 }
 
