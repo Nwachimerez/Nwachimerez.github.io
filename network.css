@@ -90,15 +90,15 @@ span{
 }
 /* about myself */
 #eight{
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-   background-position: right;
-    background-image: url(network/six.jpg);
-    background-repeat: no-repeat;
-    position: relative;
     text-align: center;
     font-size: x-large;
+     width: 100vw;
+    height: 100vh;
+    background-image: url(network/six.jpg);
+    background-size: cover;
+    background-position:right;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .you{
@@ -106,24 +106,29 @@ span{
     bottom:0;
     }
 
-.ten{
-    float: left; 
-   padding-top: 20px;
-   width: 370px
-}
-    .man{
+.man{
        float: left;
     width: 350px;
     background-color: rgba(255, 228, 196, 0.534);
     border-radius: 20px;
     }
-    
-    .nom{
+.nom{
     float: right;
     width: 350px;
     background-color: rgba(216, 123, 10, 0.37);
     border-radius: 20px;
-}
+    }
+
+.glass{
+        float: right;
+    padding-top: 160px;
+    }
+
+.ten{
+    float: left; 
+   padding-top: 20px;
+   width: 370px
+  }
 
 
 .odi{
@@ -138,10 +143,6 @@ span{
 .myi{
     margin: 20px 0px 4px 5px;
     color: rgb(204, 130, 33);
-    }
-    .glass{
-        float: right;
-    padding-top: 160px;
     }
 
 .lamp{
