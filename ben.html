@@ -13,19 +13,21 @@
            <div class="three">
             <a class="get" href="#contact"><button>Get Started</button></a>
         </div>
+           <div class="container">
         <div class="nav">
            <a class="yes" href="#">Home</a> 
            <a class="yes" href="#about-us">About Us</a> 
            <a class="yes" href="#services">Services</a> 
            <a class="yes" href="learn.html">Contact</a> 
         </div>
-         </div>
-        
-        <div class="toggle">
+           <div class="toggle">
            <div class="dot"></div>
           <div class="dot"></div>
          <div class="dot"></div>
         </div>
+           </div>     
+         </div>
+        
 
          <div class="four">
             <div class="ben">
@@ -92,8 +94,8 @@
   <script>
   const nav = document.querySelector(".nav")
   const toggleBtn = document.querySelector(".toggle")
-  toggleBtn.addEventListener("click",function(){
-    nav.classList.toggle("close")
+  toggleBtn.addEventListener("click",() => {
+    nav.classList.toggle("show")
   })  
    </script>   
 </body>
