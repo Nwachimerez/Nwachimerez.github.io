@@ -4,12 +4,16 @@
     padding: 0;
 }
 
-.close{
-    transform: translate(50vw);
+.nav.show{
+   display: block; 
 }
 
 .toggle{
     transition: 0.5s;
+}
+
+.container{
+    position: relative;
 }
 
 .toggle{
@@ -25,6 +29,7 @@
 position: fixed;
 top: 10px;
 right: 20px;
+  background: none;  
 }
 
 .yes{
@@ -51,6 +56,7 @@ right: 20px;
    top: 30px;
    right: 10px;
  transition: transform 2s ease;
+ display: none;
 }
 
 .three{
