@@ -4,15 +4,52 @@
     padding: 0;
 }
 
-.zero{
- display: flex;
- justify-content: space-between;
- margin: 20px;
- /* position: sticky;
- top: 0; */
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-transition: transform 0.2s ease-in-out; 
+.close{
+    transform: translate(50vw);
+}
+
+.toggle{
+    transition: 0.5s;
+}
+
+.toggle{
+   height: 50px;
+   width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+position: fixed;
+top: 10px;
+right: 20px;
+}
+
+.yes{
+    display: flex;
+}
+
+.dot{
+   width: 30px;
+   height: 5px; 
+   background-color: gray;
+   margin-bottom: 5px;
+   cursor:pointer;
+}
+
+.nav{
+   width: 20vw;
+   height: 15vh;
+   position: fixed;
+   top: 30px;
+   right: 0;
+ transition: transform 2s ease;
+}
+
+.three{
+    text-align: center;
 }
 
 .mki{
@@ -114,9 +151,9 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
    padding: 100px 20px;
-    border: 1px solid red;
     height: 350px;
     position: relative;
+    margin-top: 50px;
 }
 
 .four::after{
@@ -170,7 +207,7 @@ position: relative;
     
 }
 
-@media (max-width:760) {
+@media (min-width:760) {
     .kelly{
         flex: 0 0 100%;
     }
@@ -273,3 +310,8 @@ background-color: rgba(212, 203, 203, 0.856);
      transition: transform 0.2s ease-in-out; 
     background-color: rgba(252, 159, 21, 0.466);
 }
+
+.toggle{
+    width: 50px;
+    height: 50px;
+  }
